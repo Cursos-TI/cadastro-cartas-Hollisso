@@ -3,6 +3,7 @@
 int main() {
 // ---- CARTA 1 ----
 // VARIAVEIS
+  char estado1[10];  
   char codigo1[10];
   char cidade1[20];
   float populacao1;
@@ -12,6 +13,9 @@ int main() {
   
 // INPUT DE DADOS
   printf("--- Cadastro da carta 01 --- \n\n"); 
+  printf("- Estado da sua carta: ");
+  scanf("%s", estado1);
+  
   printf("- Código da sua carta: ");
   scanf("%s", codigo1);
 
@@ -35,6 +39,7 @@ int main() {
 
 //---- CARTA 02 ----
 // VARIAVEIS
+  char estado2[10];
   char codigo2[10];
   char cidade2[20];
   float populacao2;
@@ -44,6 +49,9 @@ int main() {
 
   // INPUT DE DADOS
   printf("--- Cadastro da carta 02 --- \n\n"); 
+  printf("- Estado da sua carta: ");
+  scanf("%s", estado2);
+  
   printf("- Código da sua carta: ");
   scanf("%s", codigo2);
 
@@ -69,6 +77,7 @@ int main() {
 // Área para exibição dos dados da cidade
 //DADOS CARTA 1
   printf("==== Carta 01 ====\n");
+  printf("Estado: %s\n", estado1);
   printf("Código: %s\n", codigo1);
   printf("Cidade: %s\n", cidade1);
   printf("População: %f\n", pontos_turisticos1);
@@ -78,6 +87,7 @@ int main() {
 
 //DADOS CARTA 2
   printf("==== Carta 02 ====\n");
+  printf("Estado: %s\n", estado2);
   printf("Código: %s\n", codigo2);
   printf("Cidade: %s\n", cidade2);
   printf("População: %f\n", populacao2);
