@@ -15,10 +15,10 @@ int main() {
   printf("- Código da sua carta: ");
   scanf("%s", codigo1);
 
-  printf("- Qual a sua cidade: ");
+  printf("- Cidade: ");
   scanf("%s", cidade1);
  
-  printf("- Quantidade da população da sua carta: ");
+  printf("- População da sua carta: ");
   scanf("%f", &populacao1);
  
   printf("- Tamanho da área da sua carta: ");
@@ -27,7 +27,7 @@ int main() {
   printf("- Valor do PIB da sua carta: ");
   scanf("%f", &PIB1);
 
-  printf("- Quantidade de pontos turisticos da sua carta: ");
+  printf("- Quantidade de pontos turísticos da sua carta: ");
   scanf("%d", &pontos_turisticos1);
 
 //Pular linha
@@ -47,10 +47,10 @@ int main() {
   printf("- Código da sua carta: ");
   scanf("%s", codigo2);
 
-  printf("- Qual a sua cidade: ");
+  printf("- Cidade: ");
   scanf("%s", cidade2);
  
-  printf("- Quantidade da população da sua carta: ");
+  printf("- População da sua carta: ");
   scanf("%f", &populacao2);
  
   printf("- Tamanho da área da sua carta: ");
@@ -59,7 +59,7 @@ int main() {
   printf("- Valor do PIB da sua carta: ");
   scanf("%f", &PIB2);
 
-  printf("- Quantidade de pontos turisticos da sua carta: ");
+  printf("- Quantidade de pontos turísticos da sua carta: ");
   scanf("%d", &pontos_turisticos2);
 
 //Pular linha
@@ -74,7 +74,7 @@ int main() {
   printf("População: %f\n", pontos_turisticos1);
   printf("Área: %f\n", area1);
   printf("PIB: %f\n", PIB1);
-  printf("Pontos Turisticos: %d\n\n", pontos_turisticos1);
+  printf("Pontos Turísticos: %d\n\n", pontos_turisticos1);
 
 //DADOS CARTA 2
   printf("==== Carta 02 ====\n");
@@ -83,7 +83,7 @@ int main() {
   printf("População: %f\n", populacao2);
   printf("Área: %f\n", area2);
   printf("PIB: %f\n", PIB2);
-  printf("Pontos Turisticos: %d\n\n", pontos_turisticos2);
+  printf("Pontos Turísticos: %d\n\n", pontos_turisticos2);
 
   printf("||  Parabéns, cartas cadastradas com sucesso!  ||\n\n");
 
