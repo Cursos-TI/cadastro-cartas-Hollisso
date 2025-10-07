@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Definição de constantes (boas práticas, mas se não viu, pode usar diretamente os números)
+// Definição de constantes (Pesquisei fora do curso)
 #define POPULACAO 1
 #define AREA 2
 #define PIB_VALOR 3
@@ -54,7 +54,7 @@ int main() {
     densidade_populacional1 = (float)populacao1 / area1;
     densidade_populacional2 = (float)populacao2 / area2;
 
-    // Note: Converte populacao para float antes da divisão para evitar truncamento
+    // Note: Converte populacao para float antes da divisão
     PIB_per_capita1 = PIB1 / (float)populacao1;
     PIB_per_capita2 = PIB2 / (float)populacao2;
 
@@ -88,7 +88,7 @@ int main() {
 
     if (at1_escolha < 1 || at1_escolha > 7) {
         printf("Opcao invalida. Por favor, escolha um numero entre 1 e 7.\n\n");
-        goto MenuAtributo1; // Volta ao menu se a entrada for inválida
+        goto MenuAtributo1; // Volta ao menu se a entrada for inválida (Pesquisa fora do curso)
     }
 
     // --- SWITCH PARA ARMAZENAR O VALOR E NOME DO PRIMEIRO ATRIBUTO ---
@@ -147,7 +147,7 @@ int main() {
 
     if (at2_escolha < 1 || at2_escolha > 7) {
         printf("Opcao invalida. Por favor, escolha um numero entre 1 e 7.\n\n");
-        goto MenuAtributo2; // Volta ao menu se a entrada for inválida
+        goto MenuAtributo2; // Volta ao menu se a entrada for inválida ( Pesquisa fora do curso)
     }
     
     // Lógica para garantir que o segundo atributo não seja igual ao primeiro
